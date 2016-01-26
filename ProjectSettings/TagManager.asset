@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SF_Door
+  - SF_Door1
+  - SF_Door2
+  - SF_Door3
+  - SF_Door4
+  - SF_Door5
+  - SF_Door6
+  - SF_Door7
+  - SF_Door8
   layers:
   - Default
   - TransparentFX
