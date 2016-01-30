@@ -47,8 +47,8 @@ public class Autowalk : MonoBehaviour
 	
 	void Update () 
 	{
-		// Walk when the Cardboard Trigger is used 
-		if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered) 
+        // Walk when the Cardboard Trigger is used 
+        if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered) 
 		{
 			isWalking = true;
 		} 
@@ -98,5 +98,11 @@ public class Autowalk : MonoBehaviour
 		{
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
 		}
-	}
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        isWalking = false;
+
+    }
 }
