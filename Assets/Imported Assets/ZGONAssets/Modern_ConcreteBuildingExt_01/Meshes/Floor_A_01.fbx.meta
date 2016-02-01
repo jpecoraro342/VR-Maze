@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2aa48431a36505b4f9bf95dff3e9ea6f
+guid: a2de4a4b1a84bab449023b7f7b9688cc
 labels:
 - exterior
 - building
@@ -13,7 +13,13 @@ labels:
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    4300000: Floor_A_04
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Floor_A_01
+    6400000: //RootNode
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0

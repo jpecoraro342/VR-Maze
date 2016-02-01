@@ -1,15 +1,27 @@
 fileFormatVersion: 2
-guid: 65fb86f734ce568408b3eaad4fca1b60
+guid: 2aa48431a36505b4f9bf95dff3e9ea6f
+labels:
+- exterior
+- building
+- concrete
+- modern
+- lego
+- modular
+- meshset
+- zombiegons
+- constructionkit
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    4300000: frame_col
-    4300002: Cylinder.004
-    4300004: door
-    4300006: frame
-    4300008: base
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Floor_A_04
+    6400000: //RootNode
+    11100000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -34,7 +46,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -50,7 +62,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
+    tangentImportMode: 2
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

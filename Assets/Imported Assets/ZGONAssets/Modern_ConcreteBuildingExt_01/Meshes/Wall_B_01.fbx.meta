@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c5ed8b6d94de2d4d9eb79b295f42e97
+guid: 4755152952979d243ab72497362bc95b
 labels:
 - exterior
 - building
@@ -13,7 +13,13 @@ labels:
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    4300000: Wall_C_03
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Wall_B_01
+    6400000: //RootNode
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0
