@@ -13,6 +13,7 @@ TagManager:
   - SF_Door6
   - SF_Door7
   - SF_Door8
+  - Fade
   layers:
   - Default
   - TransparentFX
