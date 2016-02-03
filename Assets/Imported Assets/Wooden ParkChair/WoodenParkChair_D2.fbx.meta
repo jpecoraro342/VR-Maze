@@ -3,7 +3,15 @@ guid: c50cae6c5059a5842a5282b4a07f50fa
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: ParkChair1_D2
+    100002: //RootNode
+    400000: ParkChair1_D2
+    400002: //RootNode
+    2300000: ParkChair1_D2
+    3300000: ParkChair1_D2
     4300000: ParkChair1_D2
+    7400000: Default Take
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3
