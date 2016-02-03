@@ -8,14 +8,11 @@ public class NextScene : MonoBehaviour {
 
 	int numberOfScenes;
 
-    void OnCollisionEnter(Collision collision)
-    {
-        SceneManager.LoadScene("OutsideScene", LoadSceneMode.Single);
+	void OnTriggerEnter(Collider other) {
+		SceneManager.LoadSceneAsync((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
+	}
 
-    }
-
-    public void onClick()
-    {
-        SceneManager.LoadScene("OutsideScene", LoadSceneMode.Single);
+	public void onClick() {
+		SceneManager.LoadSceneAsync((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
     }
 }
