@@ -268,7 +268,7 @@ GameObject:
   - 64: {fileID: 6428046}
   - 114: {fileID: 11412008}
   m_Layer: 0
-  m_Name: Spiral_02.3 Domain
+  m_Name: Scene Transporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.66, y: 4.7, z: -59.55}
+  m_LocalPosition: {x: 30.8, y: 4.7, z: -68.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 411878}
@@ -861,6 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb49a11973529b94687a8983451305b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneLevel: 0
 --- !u!198 &19803766
 ParticleSystem:
   m_ObjectHideFlags: 1
