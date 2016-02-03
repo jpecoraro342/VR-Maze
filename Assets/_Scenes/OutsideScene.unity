@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 43c0ad03dcb6b2a469387975f5050350, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -41,7 +41,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 6
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -66,7 +66,8 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000005, guid: c8db3df06dd50a34f923555e5fb5b506,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -852,7 +853,7 @@ Transform:
   - {fileID: 756468948}
   - {fileID: 1238400185}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
 --- !u!1 &76430570
 GameObject:
   m_ObjectHideFlags: 0
@@ -6150,6 +6151,10 @@ Prefab:
       propertyPath: screenSize
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2065386, guid: 3f0ab48ee31074cadbf5df11e99dfb9c, type: 2}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f0ab48ee31074cadbf5df11e99dfb9c, type: 2}
   m_IsPrefabParent: 0
@@ -9924,7 +9929,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 468890, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 61.891525
+      value: 60.5
       objectReference: {fileID: 0}
     - target: {fileID: 468890, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
       propertyPath: m_LocalPosition.y
@@ -9932,7 +9937,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 468890, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 175.96063
+      value: 173.8
       objectReference: {fileID: 0}
     - target: {fileID: 468890, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9952,7 +9957,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 468890, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266610, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266610, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 425d43c3961d442378068ee3e2b7c6ab, type: 2}

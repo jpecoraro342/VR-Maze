@@ -12,7 +12,7 @@ public class NextScene : MonoBehaviour {
     }
     void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene("OutsideScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("BuildingScene", LoadSceneMode.Single);
 
     }
 }
