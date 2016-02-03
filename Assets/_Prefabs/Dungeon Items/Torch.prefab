@@ -146,7 +146,6 @@ GameObject:
   - 4: {fileID: 466206}
   - 33: {fileID: 3381902}
   - 23: {fileID: 2339364}
-  - 114: {fileID: 11403500}
   m_Layer: 0
   m_Name: FireComplex
   m_TagString: Fire
@@ -322,8 +321,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124788}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -67.91, y: 6.5457044, z: 74.3}
-  m_LocalScale: {x: 0.39999998, y: 0.039999988, z: 0.050000004}
+  m_LocalPosition: {x: -33.3, y: 6.5457044, z: 24.42}
+  m_LocalScale: {x: 0.39999998, y: 0.039999973, z: 0.049999997}
   m_Children:
   - {fileID: 471158}
   - {fileID: 466206}
@@ -474,21 +473,10 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 2
-  m_BounceIntensity: 0.5
+  m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 4, y: 4}
---- !u!114 &11403500
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!198 &19803090
 ParticleSystem:
   m_ObjectHideFlags: 1
