@@ -102,12 +102,13 @@ public class Autowalk : MonoBehaviour
 			transform.position = new Vector3(transform.position.x, yOffset, transform.position.z);
 		}
     }
-
+    
     void OnCollisionEnter(Collision col)
     {
         isWalking = false;
         //Application.LoadLevel("DungeonScene");
-        SceneManager.LoadScene("DungeonScene", LoadSceneMode.Single);
+        //SceneManager.LoadScene("DungeonScene", LoadSceneMode.Single);
 
     }
+    
 }
