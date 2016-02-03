@@ -4,15 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class NextScene : MonoBehaviour {
 
-    public int sceneLevel;
-
-	int numberOfScenes;
-
+	bool checkLoad = false;
 	void OnTriggerEnter(Collider other) {
-		SceneManager.LoadSceneAsync((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
+		onClick ();
 	}
 
 	public void onClick() {
-		SceneManager.LoadSceneAsync((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCount);
+		if (checkLoad == false) {
+			SceneManager.LoadSceneAsync ((SceneManager.GetActiveScene ().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
+			checkLoad = true;
+		}
     }
 }
