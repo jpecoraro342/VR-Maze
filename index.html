@@ -1,0 +1,152 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>MazeVR</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<h1 id="toc_0">MazeVR</h1>
+
+<ul>
+<li><strong><a href="#toc_1">Video Demo</a></strong></li>
+<li><strong><a href="#toc_2">Motivation</a></strong></li>
+<li><strong><a href="#toc_3">Description</a></strong></li>
+<li><strong><a href="#toc_4">Technical Explanation</a></strong></li>
+<li><strong><a href="#toc_5">Controls</a></strong></li>
+<li><strong><a href="#toc_6">Installation Instructions</a></strong></li>
+<li><strong><a href="#toc_7">Gameplay Notes</a></strong></li>
+<li><strong><a href="#toc_8">Resources</a></strong></li>
+</ul>
+
+<h3 id="toc_1">Video Demo</h3>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/iGrsN1jCAcc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h3 id="toc_2">Motivation</h3>
+
+<p>MazeVR brings virtual reality to the classic maze environment. Mazes in real life are fun and exciting. It is immersive to be lost in a maze, and feel the need to find your way out. Maze games are traditionally much less exciting. Even though there may be cool graphics and props, the feeling of being lost doesn&#39;t exist in a traditional virtual maze. MazeVR seeks to change this by putting the user in a virtual maze environment. The sense of immersion isn&#39;t lost when users are transported into MazeVR.</p>
+
+<h3 id="toc_3">Description</h3>
+
+<p>MazeVR is a virtual maze environment for google cardboard. The goal is to make it to the end of the maze. This demo consists of three different levels.</p>
+
+<ul>
+<li>level one: Sci-Fi (Fai Kwok)</li>
+<li>level two: Outdoor Adventure (Craig Lu)</li>
+<li>level three: Medieval Dungeon (Joseph Pecoraro)</li>
+</ul>
+
+<p>Once each level is completed, the user is teleported to the following level. As stated previously, this is designed to be an immersive experience. There are various props on each of the levels to add to this factor.</p>
+
+<h3 id="toc_4">Technical Explanation</h3>
+
+<p>The project for the VR Maze, was created to give users an experience in a virtual environment that allows them to interact and feel immersed in a series of mazes where they have to find a way out. The pure technical components we used were Unity, Google Cardboard, Assets from the Unity Assets store, and various scripts we found online. A couple of techniques we tried, in attempt to give the users a good experience, was decorating the environment with objects such as a giant robot, an animated horse, and a dragon. Along with objects, we also added in 3D audio to provide the users some guidance through the maze.</p>
+
+<h3 id="toc_5">Controls</h3>
+
+<p>Maze VR uses gaze based input, as well as the button on google cardboard</p>
+
+<ul>
+<li>Walk: Press the button on google cardboard to toggle walking.</li>
+<li>Look Around: Turn your head all different ways to explore the virtual world.</li>
+<li>Selection: Press the button on google cardboard to select menu items.</li>
+</ul>
+
+<h3 id="toc_6">Installation Instructions</h3>
+
+<p>MazeVR is open source! That means that you can view the source on <a href="https://github.com/jpecoraro342/VR-Maze">github</a>. MazeVR Code+APK bundle is also available at <a href="https://onedrive.live.com/redir?resid=D449DAF21E6536F7%2158536&amp;authkey=%21ADBvta888rfW-a4&amp;ithint=file%2Crar">this link</a>.</p>
+
+<p><strong>Android</strong></p>
+
+<ol>
+<li>Download the apk at <a href="VR-Maze.apk">this link</a>.</li>
+<li>Install like any other android apk.</li>
+<li>Play on your phone with google cardboard!</li>
+</ol>
+
+<p><strong>iOS</strong></p>
+
+<p><em>note: iOS apps must be code signed, which means until the application is available in the appstore, it can only be put on an iOS device manually.</em></p>
+
+<ol>
+<li>Download the source code at <a href="https://github.com/jpecoraro342/VR-Maze">github</a>.</li>
+<li>Build for iOS</li>
+<li>Open the generated project in XCode</li>
+<li>In the project settings
+
+<ul>
+<li>set enable bitcode: no</li>
+<li>add MessageUI.framework</li>
+<li>add Security.framework</li>
+</ul></li>
+<li>Build and run.</li>
+</ol>
+
+<h3 id="toc_7">Gameplay Notes</h3>
+
+<p>Unfortunately, this game is not perfect. It was made in a short amount of time, and so there are bugs and glitches. Here are soe things to be aware of when playing this game.</p>
+
+<ul>
+<li>Long level load times: When switching between levels, it takes a very long time to load. You may not think it is loading, but don&#39;t worry, it is.</li>
+<li>Possible collision issues on first level: You shouldn&#39;t be able to walk through any walls, and you can&#39;t. There might just be a small chance that you can with a couple walls though.</li>
+<li>Performance issues: The third level has some notable performance issues. It runs well on high end phones, but there is a frame rate drop when looking around a lot. It may lead to increased chance of motion sickness, but other than that it should be fine. </li>
+</ul>
+
+<h3 id="toc_8">References</h3>
+
+<p><strong>Level One</strong></p>
+
+<ul>
+<li>https://www.assetstore.unity3d.com/en/#!/content/2088</li>
+<li>https://github.com/JuppOtto/Google-Cardboard/</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/25255</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/6411</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/44185</li>
+<li>http://www.memecenter.com/fun/4261085/was-watching-the-maze-runner-when-i-suddenly-realised</li>
+<li>https://c1.staticflickr.com/3/2507/4061959450_ddb0aaab38.jpg</li>
+<li>http://screencrush.com/442/files/2015/10/star-wars-posters-pic.jpg?w=1600&amp;cdnnode=1</li>
+<li>https://s-media-cache-ak0.pinimg.com/736x/23/28/5d/23285d1d6022cc91ea58719c62ee650c.jpg</li>
+<li>http://screenrant.com/wp-content/uploads/Darth-Vader-voiced-by-Arnold-Schwarzenegger.jpg</li>
+<li>http://cdn.funzypics.com//Thumbnails/3/19340-Keep-Calm-And-Use-The-Force---Luke.jpg</li>
+<li>http://weknowmemes.com/wp-content/uploads/2013/10/jaden-smith-tweets-15.jpg</li>
+<li>http://memesvault.com/wp-content/uploads/Lol-Meme-01.jpg</li>
+<li>http://hacktext.com/seo201/lib/imgs/darth-vader-force-choke.jpg</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/33469</li>
+<li>http://9gag.com/gag/aQ8eD52</li>
+<li>http://9gag.com/gag/arK56oB</li>
+<li>http://9gag.com/gag/a2m4wXw</li>
+<li>http://9gag.com/gag/avP7xrE</li>
+<li>https://github.com/JuppOtto/Google-Cardboard</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/38694</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/21813</li>
+<li>https://gist.github.com/NovaSurfer/5f14e9153e7a2a07d7c5</li>
+</ul>
+
+<p><strong>Level Two</strong></p>
+
+<ul>
+<li>https://www.assetstore.unity3d.com/en/#!/content/12567</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/27594</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/24923</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/16687</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/52977</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/3930</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/19032</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/851</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/38272</li>
+</ul>
+
+<p><strong>Level Three</strong></p>
+
+<ul>
+<li>https://3dwarehouse.sketchup.com/model.html?id=aa2c6543e2767d60bd9380156189de87</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/30232</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/38689</li>
+<li>https://www.assetstore.unity3d.com/en/#!/content/41540</li>
+</ul>
+
+
+</body>
+
+</html>
